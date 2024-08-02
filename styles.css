@@ -1,0 +1,119 @@
+body{
+    padding-top: 8.2%;
+}
+
+h1{
+    font-family: Roboto Black  ;
+    font-size: 4.5rem;
+   
+}
+
+h5{
+    font-family: roboto;
+    font-size: 1.5rem;
+}
+.bg-light {
+    background-color: #0f172b !important;
+    color: #ffff;
+}
+
+
+.nav-item .nav-link {
+    font-size: 1rem;
+    color: #ffff !important;
+}
+.nav-item :hover{
+    color: #fea116 !important;
+}
+
+
+.navbar-brand{
+color: #fea116;
+font-size: 1,5rem;
+text-decoration: none;
+}
+
+.nav-item .dropdown :hover .dropdown-menu :hover{
+    display: block;
+    margin-top: 0; 
+}
+#hero-bg-img{
+    background:linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)),  url(Assets/Images/bg-hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rotate-image {
+    width: 100%; /* Ensures the image is fluid within its container */
+    animation: rotate 50s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.btn-down{
+    display: flex;
+        border: none;
+        background-color:  #fea116;
+        color: #ffff;
+        padding: 8px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1rem;
+        margin: 4px 2px;
+        cursor: pointer;
+        text-align: center;
+        margin-top: 6px;
+}
+
+.container-fluid{
+    margin-top: 6%;
+    margin-bottom: 7%;
+}
+/* media query snippet */
+
+@media (max-width:994px) {
+    .col-lg-3{
+        margin-top: 20px;
+    }
+    .navbar-toggler{
+        background-color: #fea116;
+        color: #0f172b
+    }
+    h1{
+        text-align: center;
+    }
+    .para-1{
+        text-align: center;
+    }
+    .btn-down{
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+.card:hover{
+    color: #ffff;
+}
+.card-tittle svg :hover{
+background-color: #ffff !important;
+
+}
+.col-lg-3 :hover{
+background-color:  #fea116;
+cursor: pointer;
+}
+.fl{
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+    width: 50%;
+}
