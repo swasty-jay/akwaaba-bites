@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://getbootstrap.com/docs/5.2/assets/css/docs.css"
+      rel="stylesheet"
+    />
+    <!-- css links -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Akwaaba Bites</title>
+  </head>
+  <body>
+    <!-- Navbar snippet -->
+   
+      <nav class="navbar fixed-top navbar-expand-lg bg-light">
+        <div class="container-fluid mx-5 mt-3 mb-3">
+          <a class="navbar-brand text-warning" href="#"
+            ><strong
+              ><ion-icon size="large" name="restaurant"></ion-icon>Akwaaba
+              Bites</strong
+            ></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">MENU</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"  id="dropdownMenuLink"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  PAGES
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Bookings</a></li>
+                  <li><a class="dropdown-item" href="#">Our Team</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Testimonials</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <button class="btn btn-lg btn-warning text-white" type="submit">
+                BOOK A TABLE
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- End Navbar Code -->
+
+      <!-- STARTING HOMEPAGE -->
+      <section id="hero-bg-img">
+      <div class="container text-white">
+        <div class="row">
+          <div class="col-lg-6 mt-5 mb-5">
+            <h1 class="mt-5">
+              <strong>Enjoy Our <br />
+                Delicious Meal</strong>
+            </h1>
+            <p class="para-1">
+              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
+              diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
+              lorem sit clita duo justo magna dolore erat amet
+            </p>
+
+            <form class="d-flex" role="search">
+              <button class="btn-down" type="button">BOOK A TABLE!</button>
+            </form>
+          </div>
+
+          <div class="col-lg-6">
+            <img
+              class="img-fluid rotate-image mt-5 mb-5"
+              src="Assets/Images/grilled fish.png"
+              alt="Grilled Fish"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 card-bg">
+          <div class="card">
+            <div class="card-tittle text-center mt-5">
+              <svg xmlns="http://www.w3.org/2000/svg" width="70" height="80" viewBox="0 0 448 512"><path fill="#0f172b " d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0S96 57.3 96 128s57.3 128 128 128m95.8 32.6L272 480l-32-136l32-56h-96l32 56l-32 136l-47.8-191.4C56.9 292 0 350.3 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8"/></svg>
+              <h5 class="text-center mt-2">Master Chefs</h5>
+                <div class="card-body">
+                  <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis elit sed felis bibendum.</p>
+
+                </div>
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 card-bg ">
+          <div class="card">
+            <div class="card-tittle text-center mt-5">
+              <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24"><path fill="#0f172b " d="M7 9V3q0-.425.288-.712T8 2t.713.288T9 3v6h1V3q0-.425.288-.712T11 2t.713.288T12 3v6q0 1.4-.862 2.45T9 12.85V21q0 .425-.288.713T8 22t-.712-.288T7 21v-8.15q-1.275-.35-2.137-1.4T4 9V3q0-.425.288-.712T5 2t.713.288T6 3v6zm10 5h-2q-.425 0-.712-.288T14 13V7q0-1.75 1.288-3.375T17.95 2q.45 0 .75.35t.3.825V21q0 .425-.288.713T18 22t-.712-.288T17 21z"/></svg>
+              <h5 class="text-center mt-2">Quality Food</h5>
+                <div class="card-body">
+                  <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis elit sed felis bibendum.</p>
+
+                </div>
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 card-bg ">
+          <div class="card">
+            <div class="card-tittle text-center mt-5">
+              <svg  xmlns="http://www.w3.org/2000/svg" width="90" height="80" viewBox="0 0 576 512"><path fill="#0f172b " d="M0 24C0 10.7 10.7 0 24 0h45.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5l-51.6-271c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24m128 440a48 48 0 1 1 96 0a48 48 0 1 1-96 0m336-48a48 48 0 1 1 0 96a48 48 0 1 1 0-96M252 160c0 11 9 20 20 20h44v44c0 11 9 20 20 20s20-9 20-20v-44h44c11 0 20-9 20-20s-9-20-20-20h-44V96c0-11-9-20-20-20s-20 9-20 20v44h-44c-11 0-20 9-20 20"/></svg>
+              <h5 class="text-center mt-2">Order Online</h5>
+                <div class="card-body">
+                  <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis elit sed felis bibendum.</p>
+
+                </div>
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 card-bg">
+          <div class="card">
+            <div class="card-tittle text-center mt-5">
+              <svg  xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24"><path fill="#0f172b " d="M18.72 14.76c.35-.85.54-1.76.54-2.76c0-.72-.11-1.41-.3-2.05c-.65.15-1.33.23-2.04.23A9.07 9.07 0 0 1 9.5 6.34a9.2 9.2 0 0 1-4.73 4.88c-.04.25-.04.52-.04.78A7.27 7.27 0 0 0 12 19.27c1.05 0 2.06-.23 2.97-.64c.57 1.09.83 1.63.81 1.63c-1.64.55-2.91.82-3.78.82c-2.42 0-4.73-.95-6.43-2.66a9 9 0 0 1-2.24-3.69H2v-4.55h1.09a9.09 9.09 0 0 1 15.33-4.6a9 9 0 0 1 2.47 4.6H22v4.55h-.06L18.38 18l-5.3-.6v-1.67h4.83zm-9.45-2.99c.3 0 .59.12.8.34a1.136 1.136 0 0 1 0 1.6c-.21.21-.5.33-.8.33c-.63 0-1.14-.5-1.14-1.13s.51-1.14 1.14-1.14m5.45 0c.63 0 1.13.51 1.13 1.14s-.5 1.13-1.13 1.13s-1.14-.5-1.14-1.13a1.14 1.14 0 0 1 1.14-1.14"/></svg>
+              <h5 class="text-center mt-2">24/7 Service</h5>
+                <div class="card-body">
+                  <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis elit sed felis bibendum.</p>
+
+                </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+          <div class="row g-5 align-items-center">
+              <div class="col-lg-6">
+                  <div class="row g-3">
+                      <div class="col-6 text-start">
+                          <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="Assets/Images/about-1.jpg" style="visibility: visible; animation-delay: 0.1s; animation-name: zoomIn;">
+                      </div>
+                      <div class="col-6 text-start">
+                          <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="Assets/Images/about-2.jpg" style="margin-top: 25%; visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;">
+                      </div>
+                      <div class="col-6 text-end">
+                          <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="Assets/Images/about-3.jpg" style="visibility: visible; animation-delay: 0.5s; animation-name: zoomIn;">
+                      </div>
+                      <div class="col-6 text-end">
+                          <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="Assets/Images/about-4.jpg" style="visibility: visible; animation-delay: 0.7s; animation-name: zoomIn;">
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-6">
+                  <h5 class="section-title ff-secondary text-start text-warning fw-normal" data-toggle="counter-up">About Us <strong class="bg-danger"><hr></strong> </h5>
+                  <h1 class="mb-4">Welcome to <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24"><path fill="#fea116 " d="M7 9V3q0-.425.288-.712T8 2t.713.288T9 3v6h1V3q0-.425.288-.712T11 2t.713.288T12 3v6q0 1.4-.862 2.45T9 12.85V21q0 .425-.288.713T8 22t-.712-.288T7 21v-8.15q-1.275-.35-2.137-1.4T4 9V3q0-.425.288-.712T5 2t.713.288T6 3v6zm10 5h-2q-.425 0-.712-.288T14 13V7q0-1.75 1.288-3.375T17.95 2q.45 0 .75.35t.3.825V21q0 .425-.288.713T18 22t-.712-.288T17 21z"/></svg>Akwaaba Bites</h1>
+                  <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor enim eros, quis lacinia dui luctus vel. Duis feugiat aliquam augue eu efficitur. Fusce sed nisi vel nibh ornare iaculis.</p>
+                  <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor enim eros, quis lacinia dui luctus vel. Duis feugiat aliquam augue eu efficitur. Fusce sed nisi vel nibh ornare iaculis.</p>
+                  <div class="row g-4 mb-4">
+                      <div class="col-sm-6">
+                          <div class="d-flex align-items-center border-start border-5 border-warning px-3">
+                              <h1 class="flex-shrink-0 display-5 text-warning mb-0" data-toggle="counter-up">15</h1>
+                              <div class="ps-4">
+                                  <p class="mb-0">Years of</p>
+                                  <h6 class="text-uppercase mb-0">Experience</h6>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-sm-6">
+                          <div class="d-flex align-items-center border-start border-5 border-warning px-3">
+                              <h1 class="flex-shrink-0 display-5 text-warning mb-0" data-toggle="counter-up">50</h1>
+                              <div class="ps-4">
+                                  <p class="mb-0">Popular</p>
+                                  <h6 class="text-uppercase mb-0">Master Chefs</h6>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <a class="btn btn-warning py-3 px-5 mt-2" href="#">Read More</a>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- About End -->
+
+<!-- Menu Start -->
+
+ <!-- Menu Start -->
+ <div class="container-xxl py-5">
+  <div class="container">
+      <div class="text-center wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+          <h5 class="section-title ff-secondary text-center text-warning fw-normal">Food Menu</h5>
+          <h1 class="mb-5"><strong>Most Popular Items</strong></h1>
+      </div>
+      <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+          <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
+              <li class="nav-item1">
+                  <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill" href="#tab-1" style="text-decoration: none;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="#fea116" d="M5 3h15a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-2v3a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4V4a1 1 0 0 1 1-1m13 2v3h2V5zM2 19h18v2H2z"/></svg>
+                      <div class="ps-3">
+                          <small class="text-body">Popular</small>
+                          <h6 class="text-dark"><strong>Breakfast</strong></h6>
+                      </div>
+                  </a>
+              </li>
+              <li class="nav-item1 text-dark">
+                  <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-2" style="text-decoration: none;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 256 256"><path fill="#fea116" d="M35.58 98.06a16 16 0 0 1-3.23-13.44C39.78 49.5 80 24 128 24s88.22 25.5 95.65 60.62A16 16 0 0 1 207.93 104H48.07a16 16 0 0 1-12.49-5.94m193.68 54.42l-41.13 15L151 152.57a8 8 0 0 0-5.94 0l-37 14.81L71 152.57a8 8 0 0 0-5.7-.09l-44 16a8 8 0 0 0 5.47 15L40 178.69V184a40 40 0 0 0 40 40h96a40 40 0 0 0 40-40v-9.67l18.73-6.81a8 8 0 1 0-5.47-15ZM24 136h208a8 8 0 0 0 0-16H24a8 8 0 0 0 0 16"/></svg>
+                      <div class="ps-3">
+                          <small class="text-body">Special</small>
+                          <h6 class="mt-n1 mb-0 text-dark"><strong>Launch</strong></h6>
+                      </div>
+                  </a>
+              </li>
+              <li class="nav-item1">
+                  <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-3" style="text-decoration: none;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="#fea116" d="M11 9H9V2H7v7H5V2H3v7c0 2.12 1.66 3.84 3.75 3.97V22h2.5v-9.03C11.34 12.84 13 11.12 13 9V2h-2zm5-3v8h2.5v8H21V2c-2.76 0-5 2.24-5 4"/></svg>
+                      <div class="ps-3">
+                          <small class="text-body">Lovely</small>
+                          <h6 class="mt-n1 mb-0 text-dark"><strong>Dinner</strong></h6>
+                      </div>
+                  </a>
+              </li>
+          </ul>
+          <div class="tab-content">
+              <div id="tab-1" class="tab-pane fade show p-0 active">
+                  <div class="row g-4">
+                      <div class="col-lg-6">
+                          <div class="d-flex align-items-center">
+                              <img class="flex-shrink-0 img-fluid rounded" src="./Assets/Images/menu-1.jpg" alt="" style="width: 80px;">
+                              <div class="w-100 d-flex flex-column text-start ps-4">
+                                  <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                      <span>Gourmet Delights</span>
+                                      <span class="text-warning">GH&#8373;250</span>
+                                  </h5>
+                                  <small class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-6">
+                          <div class="d-flex align-items-center">
+                              <img class="flex-shrink-0 img-fluid rounded" src="Assets/Images/menu-2.jpg" alt="" style="width: 80px;">
+                              <div class="w-100 d-flex flex-column text-start ps-4">
+                                  <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                      <span>Chef's Specials</span>
+                                      <span class="text-warning">GH&#8373;250</span>
+                                  </h5>
+                                  <small class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                  </small>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-6">
+                          <div class="d-flex align-items-center">
+                              <img class="flex-shrink-0 img-fluid rounded" src="Assets/Images/menu-3.jpg" alt="" style="width: 80px;">
+                              <div class="w-100 d-flex flex-column text-start ps-4">
+                                  <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                      <span>Signature Dishes</span>
+                                      <span class="text-warning">GH&#8373;250</span>
+                                  </h5>
+                                  <small class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-6">
+                          <div class="d-flex align-items-center">
+                              <img class="flex-shrink-0 img-fluid rounded" src="Assets/Images/menu-4.jpg" alt="" style="width: 80px;">
+                              <div class="w-100 d-flex flex-column text-start ps-4">
+                                  <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                      <span>Culinary Creations</span>
+                                      <span class="text-warning">GH&#8373;250</span>
+                                  </h5>
+                                  <small class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-6">
+                          <div class="d-flex align-items-center">
+                              <img class="flex-shrink-0 img-fluid rounded" src="Assets/Images/menu-5.jpg" alt="" style="width: 80px;">
+                              <div class="w-100 d-flex flex-column text-start ps-4">
+                                  <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                      <span>Seasonal Favorites</span>
+                                      <span class="text-warning">GH&#8373;250</span>
+                                  </h5>
+                                  <small class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-6">
+                          <div class="d-flex align-items-center">
+                              <img class="flex-shrink-0 img-fluid rounded" src="Assets/Images/menu-6.jpg" alt="" style="width: 80px;">
+                              <div class="w-100 d-flex flex-column text-start ps-4">
+                                  <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                      <span>Tasting Menu</span>
+                                      <span class="text-warning">GH&#8373;250</span>
+                                  </h5>
+                                  <small class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-6">
+                          <div class="d-flex align-items-center">
+                              <img class="flex-shrink-0 img-fluid rounded" src="Assets/Images/menu-7.jpg" alt="" style="width: 80px;">
+                              <div class="w-100 d-flex flex-column text-start ps-4">
+                                  <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                      <span>Exquisite Eats</span>
+                                      <span class="text-warning">GH&#8373;250</span>
+                                  </h5>
+                                  <small class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-6">
+                          <div class="d-flex align-items-center">
+                              <img class="flex-shrink-0 img-fluid rounded" src="Assets/Images/menu-8.jpg" alt="" style="width: 80px;">
+                              <div class="w-100 d-flex flex-column text-start ps-4">
+                                  <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                      <span>Epicurean Choices</span>
+                                      <span class="text-warning">GH&#8373;250</span>
+                                  </h5>
+                                  <small class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div id="tab-2" class="tab-pane fade show p-0">
+                  <div class="row g-4">
+                      <div class="col-lg-6">
+                          <div class="d-flex align-items-center">
+                              <img class="flex-shrink-0 img-fluid rounded" src="Assets/Images/menu-1.jpg" alt="" style="width: 80px;">
+                              <div class="w-100 d-flex flex-column text-start ps-4">
+                                  <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                      <span>Gourmet Delights</span>
+                                      <span class="text-warning">GH&#8373;250</span>
+                                  </h5>
+                                  <small class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-6">
+                          <div class="d-flex align-items-center">
+                              <img class="flex-shrink-0 img-fluid rounded" src="Assets/Images/menu-2.jpg" alt="" style="width: 80px;">
+                              <div class="w-100 d-flex flex-column text-start ps-4">
+                                  <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                      <span>Chef's Special</span>
+                                      <span class="text-warning">GH&#8373;250</span>
+                                  </h5>
+                                  <small class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-6">
+                          <div class="d-flex align-items-center">
+                              <img class="flex-shrink-0 img-fluid rounded" src="Assets/Images/menu-3.jpg" alt="" style="width: 80px;">
+                              <div class="w-100 d-flex flex-column text-start ps-4">
+                                  <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                      <span>Signature Dishes</span>
+                                      <span class="text-warning">GH&#8373;250</span>
+                                  </h5>
+                                  <small class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-6">
+                          <div class="d-flex align-items-center">
+                              <img class="flex-shrink-0 img-fluid rounded" src="Assets/Images/menu-4.jpg" alt="" style="width: 80px;">
+                              <div class="w-100 d-flex flex-column text-start ps-4">
+                                  <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                      <span>Culinary Creations</span>
+                                      <span class="text-warning">GH&#8373;250</span>
+                                  </h5>
+                                  <small class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-6">
+                          <div class="d-flex align-items-center">
+                              <img class="flex-shrink-0 img-fluid rounded" src="Assets/Images/menu-5.jpg" alt="" style="width: 80px;">
+                              <div class="w-100 d-flex flex-column text-start ps-4">
+                                  <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                      <span>Seasonal Favorites</span>
+                                      <span class="text-warning">GH&#8373;250</span>
+                                  </h5>
+                                  <small class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-6">
+                          <div class="d-flex align-items-center">
+                              <img class="flex-shrink-0 img-fluid rounded" src="Assets/Images/menu-6.jpg" alt="" style="width: 80px;">
+                              <div class="w-100 d-flex flex-column text-start ps-4">
+                                  <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                      <span>Testin Menu</span>
+                                      <span class="text-warning">GH&#8373;250</span>
+                                  </h5>
+                                  <small class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-6">
+                          <div class="d-flex align-items-center">
+                              <img class="flex-shrink-0 img-fluid rounded" src="Assets/Images/menu-7.jpg" alt="" style="width: 80px;">
+                              <div class="w-100 d-flex flex-column text-start ps-4">
+                                  <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                      <span>Exquisite Eats</span>
+                                      <span class="text-warning">GH&#8373;250</span>
+                                  </h5>
+                                  <small class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-6">
+                          <div class="d-flex align-items-center">
+                              <img class="flex-shrink-0 img-fluid rounded" src="Assets/Images/menu-8.jpg" alt="" style="width: 80px;">
+                              <div class="w-100 d-flex flex-column text-start ps-4">
+                                  <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                      <span>Epicurean Choices</span>
+                                      <span class="text-warning">GH&#8373;250</span>
+                                  </h5>
+                                  <small class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div id="tab-3" class="tab-pane fade show p-0">
+                  <div class="row g-4">
+                      <div class="col-lg-6">
+                          <div class="d-flex align-items-center">
+                              <img class="flex-shrink-0 img-fluid rounded" src="Assets/Images/menu-1.jpg" alt="" style="width: 80px;">
+                              <div class="w-100 d-flex flex-column text-start ps-4">
+                                  <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                      <span>Gourmet Delights</span>
+                                      <span class="text-warning">GH&#8373;250</span>
+                                  </h5>
+                                  <small class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-6">
+                          <div class="d-flex align-items-center">
+                              <img class="flex-shrink-0 img-fluid rounded" src="Assets/Images/menu-2.jpg" alt="" style="width: 80px;">
+                              <div class="w-100 d-flex flex-column text-start ps-4">
+                                  <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                      <span>Chef's Special</span>
+                                      <span class="text-warning">GH&#8373;250</span>
+                                  </h5>
+                                  <small class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-6">
+                          <div class="d-flex align-items-center">
+                              <img class="flex-shrink-0 img-fluid rounded" src="Assets/Images/menu-3.jpg" alt="" style="width: 80px;">
+                              <div class="w-100 d-flex flex-column text-start ps-4">
+                                  <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                      <span>Signature Dishes</span>
+                                      <span class="text-warning">GH&#8373;250</span>
+                                  </h5>
+                                  <small class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-6">
+                          <div class="d-flex align-items-center">
+                              <img class="flex-shrink-0 img-fluid rounded" src="Assets/Images/menu-4.jpg" alt="" style="width: 80px;">
+                              <div class="w-100 d-flex flex-column text-start ps-4">
+                                  <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                      <span>Culinary Creations</span>
+                                      <span class="text-warning">GH&#8373;250</span>
+                                  </h5>
+                                  <small class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-6">
+                          <div class="d-flex align-items-center">
+                              <img class="flex-shrink-0 img-fluid rounded" src="Assets/Images/menu-5.jpg" alt="" style="width: 80px;">
+                              <div class="w-100 d-flex flex-column text-start ps-4">
+                                  <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                      <span>Seasonal Favorites</span>
+                                      <span class="text-warning">GH&#8373;250</span>
+                                  </h5>
+                                  <small class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-6">
+                          <div class="d-flex align-items-center">
+                              <img class="flex-shrink-0 img-fluid rounded" src="Assets/Images/menu-6.jpg" alt="" style="width: 80px;">
+                              <div class="w-100 d-flex flex-column text-start ps-4">
+                                  <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                      <span>Testing Menu</span>
+                                      <span class="text-warning">GH&#8373;250</span>
+                                  </h5>
+                                  <small class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-6">
+                          <div class="d-flex align-items-center">
+                              <img class="flex-shrink-0 img-fluid rounded" src="Assets/Images/menu-7.jpg" alt="" style="width: 80px;">
+                              <div class="w-100 d-flex flex-column text-start ps-4">
+                                  <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                      <span>Exquisite Eats</span>
+                                      <span class="text-warning">GH&#8373;250</span>
+                                  </h5>
+                                  <small class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-6">
+                          <div class="d-flex align-items-center">
+                              <img class="flex-shrink-0 img-fluid rounded" src="Assets/Images/menu-8.jpg" alt="" style="width: 80px;">
+                              <div class="w-100 d-flex flex-column text-start ps-4">
+                                  <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                      <span>Epicurean Choices</span>
+                                      <span class="text-warning">GH&#8373;250</span>
+                                  </h5>
+                                  <small class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- Menu End -->
+
+
+<!-- booking  -->
+  <!-- Reservation Start -->
+  <div class="container-xxl py-5 mt-4 mb-4 px-0 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+    <div class="row g-0">
+        <div class="col-md-6">
+            <div class="video">
+                <button type="button" class="btn-play btn-lg" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/rI8FOLA-9XM?si=MfB58M2ht1Faml1j" data-bs-target="#videoModal">
+                    <span></span>
+                </button>
+            </div>
+        </div>
+        <div class="col-md-6 bg-black p-2 text-dark bg-opacity-50 d-flex align-items-center ">
+            <div class="p-5 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                <h5 class="section-title ff-secondary text-start text-warning fw-normal fst-italic">Reservation</h5>
+                <h1 class="text-white mb-4">Book A Table Online</h1>
+                <form>
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                <label for="name">Your Name</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                <label for="email">Your Email</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-floating date" id="date3" data-target-input="nearest">
+                                <input type="text" class="form-control datetimepicker-input" id="datetime" placeholder="Date &amp; Time" data-target="#date3" data-toggle="datetimepicker">
+                                <label for="datetime">Date and Time</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <select class="form-select" id="select1">
+                                  <option value="1">Name 1</option>
+                                  <option value="2">Name 2</option>
+                                  <option value="3">Name 3</option>
+                                  <option value="4">Name 4</option>
+                                  <option value="5">Name 5</option>
+                                  <option value="6">Name 6</option>
+                                </select>
+                                <label for="select1">Number Of People</label>
+                              </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Special Request" id="message" style="height: 100px"></textarea>
+                                <label for="message">message</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-warning w-100 py-3 btn-block text-white" type="submit"><strong>Book Now</strong></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade " id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content rounded-0">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- 16:9 aspect ratio -->
+                <div class="ratio ratio-16x9">
+                   <iframe width="560" height="315" src="https://www.youtube.com/embed/rI8FOLA-9XM?si=MfB58M2ht1Faml1j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Reservation Start -->
+
+
+
+<!-- profile cards section begins -->
+
+<div class="container  mt-4 mb-4">
+    <h5 class="text-center text-warning fst-italic">Team Members</h5>
+    <h3 class="text-center mb-3"><strong>Our Master Chefs</strong></h3>
+    <div class="row">
+        <div class="col-lg-3 col-md-6 card-group">
+            <div class="card md-3 align-items-center">
+                <img src="Assets/Images/team-2.jpg" class="img-fluid" alt="Project 1">
+                <div class="card-body">
+                    <h4 class="card-title"><strong>William Wallace</strong></h4>
+                    <small>senior staff</small>
+                    <div class="d-flex justify-content-center mt-3">
+                        <a class="btn btn-square btn-warning mx-1" href="">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a class="btn btn-square btn-warning mx-1" href="">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a class="btn btn-square btn-warning mx-1" href="">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        <a class="btn btn-square btn-warning mx-1" href="">
+                            <i class="bi bi-github"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6">
+            <div class="card md-3 align-items-center">
+                <img src="Assets/Images/team-2.jpg" class="img-fluid" alt="Project 1">
+                <div class="card-body">
+                    <h4 class="card-title"><strong>William Wallace</strong></h4>
+                    <small>senior staff</small>  
+                    <div class="d-flex justify-content-center mt-3">
+                        <a class="btn btn-square btn-warning mx-1" href="">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a class="btn btn-square btn-warning mx-1" href="">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a class="btn btn-square btn-warning mx-1" href="">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        <a class="btn btn-square btn-warning mx-1" href="">
+                            <i class="bi bi-github"></i>
+                        </a>
+
+                    </div>
+          
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+            <div class="card md-3 align-items-center">
+                <img src="Assets/Images/team-2.jpg" class="img-fluid" alt="Project 1">
+                <div class="card-body">
+                    <h4 class="card-title"><strong>William Wallace</strong></h4>
+                    <small>senior staff</small>
+                    <div class="d-flex justify-content-center mt-3">
+                        <a class="btn btn-square btn-warning mx-1" href="">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a class="btn btn-square btn-warning mx-1" href="">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a class="btn btn-square btn-warning mx-1" href="">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        <a class="btn btn-square btn-warning mx-1" href="">
+                            <i class="bi bi-github"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+            <div class="card md-3 align-items-center">
+                <img src="Assets/Images/team-2.jpg" class="img-fluid" alt="Project 1">
+                <div class="card-body">
+                    <h4 class="card-title"><strong>William Wallace</strong></h4>
+                    <small>senior staff</small>
+                    <div class="d-flex justify-content-center mt-3">
+                        <a class="btn btn-square btn-warning mx-1" href="">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a class="btn btn-square btn-warning mx-1" href="">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a class="btn btn-square btn-warning mx-1" href="">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        <a class="btn btn-square btn-warning mx-1" href="">
+                            <i class="bi bi-github"></i>
+                        </a>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+<!-- Testimonial Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center">
+            <h5 class="section-title text-center text-warning fw-normal"><em>Testimonial</em></h5>
+            <h3 class="mb-5 text-dark"><strong>Our Clients Say!!!</strong></h3>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card testimonial-item border rounded p-4">
+                    <i class="bi bi-quote-left text-primary mb-3" style="font-size: 2rem;"></i>
+                    <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam.</p>
+                    <div class="d-flex align-items-center">
+                        <img class="img-fluid flex-shrink-0 rounded-circle" src="Assets/Images/testimonial-2.jpg" style="width: 50px; height: 50px;" alt="Client 1">
+                        <div class="ps-3">
+                            <h5 class="mb-1">Thonny</h5>
+                            <small>Vlogger</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card testimonial-item border rounded p-4">
+                    <i class="bi bi-quote-left text-primary mb-3" style="font-size: 2rem;"></i>
+                    <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam.</p>
+                    <div class="d-flex align-items-center">
+                        <img class="img-fluid flex-shrink-0 rounded-circle" src="Assets/Images/testimonial-3.jpg" style="width: 50px; height: 50px;" alt="Client 2">
+                        <div class="ps-3">
+                            <h5 class="mb-1">Gusto</h5>
+                            <small>data analyst</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card testimonial-item border rounded p-4">
+                    <i class="bi bi-quote-left mb-3" style="font-size: 2rem;"></i>
+                    <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam.</p>
+                    <div class="d-flex align-items-center">
+                        <img class="img-fluid flex-shrink-0 rounded-circle" src="Assets/Images/testimonial-2.jpg" style="width: 50px; height: 50px;" alt="Client 3">
+                        <div class="ps-3">
+                            <h5 class="mb-1">Jonas</h5>
+                            <small>Developer</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Testimonial End -->
+
+
+<div class="container-fluid bg-dark text-light footer">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+                <h4 class="section-title ff-secondary text-start text-warning fw-normal mb-4">Company</h4>
+                <a class="btn btn-link" href="#">About Us</a>
+                <a class="btn btn-link" href="#">Reservation</a>
+                <a class="btn btn-link" href="#">Contact Us</a>
+                <a class="btn btn-link" href="#">Terms &amp; Condition</a>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <h4 class="section-title ff-secondary text-start text-warning fw-normal mb-4">Contact</h4>
+                <p class="mb-2"><i class="bi bi-geo-alt-fill me-3"></i>Tema, Ghana</p>
+                <p class="mb-2"><i class="bi bi-telephone-fill me-3"></i>(+233)245670688</p>
+                <p class="mb-2"><i class="bi bi-envelope-fill me-3"></i>info@example.com</p>
+                <div class="d-flex pt-2">
+                    <a class="btn btn-outline-primary btn-social me-2" href="#"><i class="bi bi-facebook"></i></a>
+                    <a class="btn btn-outline-primary btn-social me-2" href="#"><i class="bi bi-twitter"></i></a>
+                    <a class="btn btn-outline-danger btn-social me-2" href="#"><i class="bi bi-instagram"></i></a>
+                    <a class="btn btn-outline-primary btn-social me-2" href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <h4 class="section-title ff-secondary text-start text-warning fw-normal mb-4">Opening</h4>
+                <h5 class="text-light fw-normal">Monday - Saturday</h5>
+                <p>09AM - 09PM</p>
+                <h5 class="text-light fw-normal">Sunday</h5>
+                <p>10AM - 08PM</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <h4 class="section-title ff-secondary text-start text-warning fw-normal mb-4">Newsletter</h4>
+                <p>Wanna get updated by our Newsletter? Click the button to subscribe.</p>
+                <div class="position-relative mx-auto" style="max-width: 400px;">
+                    <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                    <button type="button" class="btn btn-warning py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="copyright border-top py-4 mb-0 pb-0">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="text-light">Akwaaba Bites</a>, All Rights Reserved.
+                    Designed By <a class="text-light">Swasty Jay</a><br><br>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <div class="footer-menu">
+                        <a href="#">Home</a>
+                        <a href="#">Cookies</a>
+                        <a href="#">Help</a>
+                        <a href="#">FAQs</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <script src="index.js"></script>
+
+     <!-- font awesome -->
+     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <!-- ion-icon link -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- bootstrap icons snippet -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- js snippet -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+
+  </body>
+</html>

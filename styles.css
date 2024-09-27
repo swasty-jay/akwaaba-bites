@@ -1,0 +1,238 @@
+body{
+    padding-top: 8.2%;
+}
+
+h1{
+    font-family: Roboto Black  ;
+    font-size: 4.5rem;
+   
+}
+
+h5{
+    font-family: roboto;
+    font-size: 1.5rem;
+}
+.bg-light {
+    background-color: #0f172b !important;
+    color: #ffff;
+}
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+}
+
+.text-body{
+    text-decoration: none;
+    color: #000;
+    
+}
+.nav-item .nav-link {
+    font-size: 1rem;
+    color: #ffff !important;
+}
+.nav-item :hover{
+    color: #fea116 !important;
+}
+
+.video .btn-play span {
+    display: block;
+    align-items: center !important;
+    position: relative;
+    z-index: 3;
+    width: 0;
+    height: 0;
+    border-left: 32px solid var(--dark);
+    border-left-width: 32px;
+    border-left-style: solid;
+    border-left-color: initial;
+    border-top: 22px solid transparent;
+    border-bottom: 22px solid transparent;
+
+}
+
+.video .btn-play {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 100px;
+    height: 100px;
+   background-color: #fea116;
+    border-radius: 50%;
+   
+}
+.video .btn-play:hover{
+    transform: translate(-50%, -50%) scale(1.1);
+
+}
+
+.video .btn-play {
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    box-sizing: content-box;
+    display: block;
+    width: 32px;
+    height: 44px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    padding: 18px 20px 18px 28px;
+}
+
+.video {
+    position: relative;
+    height: 100%;
+    min-height: 500px;
+    background: linear-gradient(rgba(15, 23, 43, .1), rgba(15, 23, 43, .1)), url(Assets/Images/youtube-bg.jpg);
+    background-image: linear-gradient(rgba(15, 23, 43, 0.1), rgba(15, 23, 43, 0.1)), url(Assets/Images/youtube-bg.jpg);
+    background-position-x: initial, initial;
+    background-position-y: initial, initial;
+    background-size: initial, initial;
+    background-repeat: initial, initial;
+    background-attachment: initial, initial;
+    background-origin: initial, initial;
+    background-clip: initial, initial;
+    background-color: initial;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-brand{
+color: #fea116;
+font-size: 1,5rem;
+text-decoration: none;
+}
+
+.nav-item .dropdown :hover .dropdown-menu :hover{
+    display: block;
+    margin-top: 0; 
+}
+#hero-bg-img{
+    background:linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)),  url(Assets/Images/bg-hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rotate-image {
+    max-width: 90%; /* Ensures the image is fluid within its container */
+    animation: rotate 50s linear infinite;
+    z-index: 1;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.btn-down{
+    display: flex;
+        border: none;
+        background-color:  #fea116;
+        color: #ffff;
+        padding: 8px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1rem;
+        margin: 4px 2px;
+        cursor: pointer;
+        text-align: center;
+        margin-top: 6px;
+}
+
+.container-fluid{
+    margin-top: 6%;
+    margin-bottom: 10%;
+}
+/* media query snippet */
+
+@media (max-width:994px) {
+    .col-lg-3{
+        margin-top: 40px;
+    }
+    .navbar-toggler{
+        background-color: #fea116;
+        color: #0f172b
+    }
+    h1{
+        text-align: center;
+    }
+    .para-1{
+        text-align: center;
+    }
+    .btn-down{
+        text-align: center;
+        justify-content: center;
+    }
+
+    .rotate-image {
+        max-width: 80%;
+      
+    }
+}
+
+/* .card:hover{
+    color: #ffff;
+} */
+.card-tittle svg :hover{
+background-color: #ffff !important;
+
+}
+.card-bg :hover{
+background-color:  #fea116;
+cursor: pointer;
+}
+.fl{
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+    width: 50%;
+}
+
+.img-fluid{
+    border-radius: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 5%;
+}
+
+.img-fluid{
+    margin-right: 20px;
+    border-radius: 50%;
+}
+#carouselExampleCaptions{
+    height: 70%;
+}
+
+
+/* footer css */
+
+.footer{
+    margin-bottom: 0%!important;
+    background-color: #0f172b !important;
+}
+.btn-link{
+    align-content: flex-start;
+    color: #ffff;
+}
+.footer .footer-menu a {
+    color: #ffff;
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid rgba(255, 255, 255, .1);
+}
